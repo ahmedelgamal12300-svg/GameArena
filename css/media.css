@@ -1,0 +1,1028 @@
+#home {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  min-height: auto;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.hero-content .hero-btns {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+
+.hero-btn-primary,
+.hero-btn-outline {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 16px;
+  margin: 0 !important;
+}
+
+.hero-img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-img-frame {
+  padding: 3px;
+  border-radius: 14px;
+}
+
+.hero-img-frame img {
+  width: 100%;
+  aspect-ratio: 1.4 / 1;
+  object-fit: cover;
+  border-radius: 11px !important;
+}
+
+.img-badge {
+  left: 10px;
+  bottom: -15px;
+  min-width: 135px;
+  padding: 12px;
+}
+
+.img-badge-icon {
+  font-size: 22px !important;
+  margin-right: 10px !important;
+}
+
+.badge-content p {
+  font-size: 11px;
+}
+
+.badge-content span {
+  font-size: 18px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-title h1,
+#whatWeDo .section-title h2 {
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+.section-title h6 {
+  font-size: 13px;
+  letter-spacing: 2px;
+  gap: 10px;
+}
+
+.section-title h6::before,
+.section-title h6::after {
+  width: 35px;
+}
+
+#our-games {
+  padding-block: 60px;
+}
+
+.carousel-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 !important;
+}
+
+.carousel-img .game-card {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.carousel-img .game-card:nth-child(n + 2) {
+  display: none;
+}
+
+.carousel-img .game-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.4 / 1;
+  object-fit: cover;
+}
+
+.layer {
+  padding: 12px;
+}
+
+.layer > span {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.game-tag {
+  width: auto;
+  max-width: 50%;
+  padding: 4px 8px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.game-tag span {
+  overflow-wrap: anywhere;
+}
+
+#carouselExample .custom-control {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.view-btn {
+  padding: 10px 14px;
+  font-size: 12px;
+}
+
+#whatWeDo {
+  position: relative;
+  padding-block: 60px;
+  overflow: hidden;
+}
+
+#whatWeDo .container {
+  width: 100%;
+}
+
+#whatWeDo .section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#whatWeDo .section-title h6 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  gap: 10px;
+}
+
+#whatWeDo .section-title h6::before,
+#whatWeDo .section-title h6::after {
+  width: 35px;
+}
+
+#whatWeDo .section-title h1 {
+  font-size: 28px;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+#whatWeDo .section-title h2 {
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+#whatWeDo .cards .row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+}
+
+#whatWeDo .cards .col {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+}
+
+#whatWeDo .inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+#whatWeDo .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 220px;
+  min-width: 0;
+  padding: 16px 10px !important;
+  margin: 0;
+  border: 2px solid #252b32;
+  border-radius: 15px;
+  background-color: #1a1a1a;
+  transition: var(--transition);
+}
+
+#whatWeDo .card i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  padding: 0;
+  margin: 0 auto 20px !important;
+  border-radius: 10px;
+  background-color: #1e2939;
+  font-size: 25px !important;
+  transition: var(--transition);
+}
+
+#whatWeDo .card p {
+  margin: 0;
+  font-family: "Days One", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  color: #f1f1f1;
+  overflow-wrap: anywhere;
+}
+
+#whatWeDo .cards .col > img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#whatWeDo .inner:hover .card {
+  border-color: var(--main-color);
+}
+
+#whatWeDo .inner:hover .card i {
+  color: #000 !important;
+  background-color: var(--main-color);
+}
+
+#whatWeDo .inner::before {
+  top: 5px;
+  left: 5px;
+}
+
+#whatWeDo .inner::after {
+  right: 5px;
+  bottom: 5px;
+}
+
+.carousell {
+  width: 100%;
+  margin-bottom: 15px;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 5% 95%,
+    transparent
+  );
+  mask-image: linear-gradient(to right, transparent, #000 5% 95%, transparent);
+}
+
+.carousell .track {
+  animation-duration: 18s;
+}
+
+.carousell .track .item {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+  #home {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
+
+  .hero-content h1 {
+    font-size: 38px;
+    line-height: 1.3;
+  }
+
+  .hero-content p {
+    font-size: 14px;
+  }
+
+  .hero-content .hero-btns {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero-btn-primary,
+  .hero-btn-outline {
+    width: auto;
+  }
+
+  .img-badge {
+    left: 10px;
+    bottom: -15px;
+    padding: 14px;
+    min-width: 150px;
+  }
+
+  .section-title h1,
+  #whatWeDo .section-title h2 {
+    font-size: 34px;
+  }
+
+  .section-title h6::before,
+  .section-title h6::after {
+    width: 55px;
+  }
+
+  .carousel-img {
+    gap: 16px !important;
+  }
+
+  .carousel-img .game-card {
+    flex: 0 0 calc((100% - 16px) / 2);
+  }
+
+  .carousel-img .game-card:nth-child(2) {
+    display: block;
+  }
+
+  .carousel-img .game-card:nth-child(n + 3) {
+    display: none;
+  }
+
+  .carousel-img .game-card img {
+    aspect-ratio: 1.3 / 1;
+  }
+
+  .game-tag {
+    font-size: 10px;
+  }
+
+  .view-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+
+  #whatWeDo {
+    padding-block: 70px;
+  }
+
+  #whatWeDo .section-title {
+    margin-bottom: 45px;
+  }
+
+  #whatWeDo .section-title h1 {
+    font-size: 34px;
+  }
+
+  #whatWeDo .section-title h2 {
+    font-size: 27px;
+  }
+
+  #whatWeDo .section-title h6::before,
+  #whatWeDo .section-title h6::after {
+    width: 55px;
+  }
+
+  #whatWeDo .cards .row {
+    gap: 20px;
+  }
+
+  #whatWeDo .card,
+  #whatWeDo .cards .col > img {
+    height: 240px;
+  }
+
+  #whatWeDo .card {
+    padding: 20px 12px !important;
+  }
+
+  #whatWeDo .card i {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px !important;
+    font-size: 27px !important;
+  }
+
+  #whatWeDo .card p {
+    font-size: 16px;
+  }
+
+  .carousell .track .item {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  #home {
+    padding-top: 120px;
+    padding-bottom: 70px;
+  }
+
+  .hero-content h1 {
+    font-size: 45px;
+    line-height: 1.25;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .hero-img-frame img {
+    aspect-ratio: 1.3 / 1;
+  }
+
+  .img-badge {
+    left: 10px;
+    bottom: -15px;
+    padding: 16px;
+    min-width: 170px;
+  }
+
+  .section-title {
+    margin-bottom: 50px;
+  }
+
+  .section-title h1,
+  #whatWeDo .section-title h2 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  .section-title h6::before,
+  .section-title h6::after {
+    width: 70px;
+  }
+
+  #our-games {
+    padding-block: 75px;
+  }
+
+  .carousel-img {
+    gap: 20px !important;
+  }
+
+  .carousel-img .game-card {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+
+  .carousel-img .game-card img {
+    aspect-ratio: 1.3 / 1;
+  }
+
+  .layer {
+    padding: 16px;
+  }
+
+  .layer > span {
+    font-size: 18px;
+  }
+
+  .game-tag {
+    font-size: 11px;
+  }
+
+  #whatWeDo {
+    padding-block: 80px;
+  }
+
+  #whatWeDo .section-title {
+    margin-bottom: 50px;
+  }
+
+  #whatWeDo .section-title h1 {
+    font-size: 40px;
+  }
+
+  #whatWeDo .section-title h2 {
+    font-size: 32px;
+  }
+
+  #whatWeDo .section-title h6::before,
+  #whatWeDo .section-title h6::after {
+    width: 70px;
+  }
+
+  #whatWeDo .cards .row {
+    gap: 24px;
+  }
+
+  #whatWeDo .card,
+  #whatWeDo .cards .col > img {
+    height: 270px;
+  }
+
+  #whatWeDo .card {
+    padding: 24px 16px !important;
+  }
+
+  #whatWeDo .card i {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 24px !important;
+    font-size: 30px !important;
+  }
+
+  #whatWeDo .card p {
+    font-size: 18px;
+  }
+
+  .carousell .track .item {
+    width: 140px;
+    height: 140px;
+    margin-right: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  #home {
+    padding-bottom: 64px;
+    min-height: 100vh;
+  }
+
+  .hero-content {
+    text-align: left;
+  }
+
+  .hero-content h1 {
+    font-size: 48px;
+    line-height: 1.25;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hero-content .hero-btns {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .hero-img {
+    margin-bottom: 20px;
+  }
+
+  .hero-img-frame img {
+    aspect-ratio: 1.5 / 1;
+  }
+
+  .img-badge {
+    left: -10px;
+    bottom: -10px;
+  }
+
+  .section-title h1,
+  #whatWeDo .section-title h2 {
+    font-size: 44px;
+  }
+
+  #our-games {
+    padding-block: 96px;
+  }
+
+  .carousel-img {
+    gap: 20px !important;
+  }
+
+  .carousel-img .game-card {
+    flex: 0 0 calc((100% - 40px) / 3);
+  }
+
+  .carousel-img .game-card:nth-child(3) {
+    display: block;
+  }
+
+  .carousel-img .game-card img {
+    aspect-ratio: 1.3 / 1;
+  }
+
+  .layer {
+    padding: 16px;
+  }
+
+  .game-tag {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+
+  #whatWeDo {
+    padding-block: 96px;
+  }
+
+  #whatWeDo .section-title h1 {
+    font-size: 44px;
+  }
+
+  #whatWeDo .section-title h2 {
+    font-size: 36px;
+  }
+
+  #whatWeDo .cards .row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  #whatWeDo .card,
+  #whatWeDo .cards .col > img {
+    height: 260px;
+  }
+
+  #whatWeDo .card {
+    padding: 20px 12px !important;
+  }
+
+  #whatWeDo .card i {
+    width: 65px;
+    height: 65px;
+    margin-bottom: 20px !important;
+    font-size: 27px !important;
+  }
+
+  #whatWeDo .card p {
+    font-size: 16px;
+  }
+
+  .carousell .track .item {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-content h1 {
+    font-size: 60px;
+    line-height: 1.25;
+  }
+
+  .section-title h1 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  #whatWeDo .section-title h1 {
+    font-size: 48px;
+  }
+
+  #whatWeDo .section-title h2 {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+
+  #whatWeDo .cards .row {
+    gap: 24px;
+  }
+
+  #whatWeDo .card,
+  #whatWeDo .cards .col > img {
+    height: 285px;
+  }
+
+  #whatWeDo .card {
+    padding: 24px 16px !important;
+  }
+
+  #whatWeDo .card i {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 24px !important;
+    font-size: 30px !important;
+  }
+
+  #whatWeDo .card p {
+    font-size: 18px;
+  }
+
+  .carousel-img {
+    gap: 24px !important;
+  }
+
+  .carousel-img .game-card {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+
+  .carousel-img .game-card img {
+    aspect-ratio: 1.5 / 1;
+  }
+
+  .game-tag {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-content h1 {
+    font-size: 60px;
+  }
+
+  #whatWeDo .cards .row {
+    gap: 28px;
+  }
+
+  #whatWeDo .card,
+  #whatWeDo .cards .col > img {
+    height: 305px;
+  }
+
+  .carousell .track .item {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero-content h1 {
+    font-size: 28px;
+  }
+
+  .hero-content p {
+    font-size: 12px;
+  }
+
+  .section-title h1,
+  #whatWeDo .section-title h2 {
+    font-size: 25px;
+  }
+
+  .section-title h6::before,
+  .section-title h6::after {
+    width: 25px;
+  }
+
+  #carouselExample .custom-control {
+    width: 35px;
+    height: 35px;
+  }
+
+  .view-btn {
+    padding: 9px 10px;
+    font-size: 10px;
+  }
+
+  #whatWeDo .cards .row {
+    gap: 12px;
+  }
+
+  #whatWeDo .card,
+  #whatWeDo .cards .col > img {
+    height: 190px;
+  }
+
+  #whatWeDo .card {
+    padding: 12px 6px !important;
+  }
+
+  #whatWeDo .card i {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 14px !important;
+    font-size: 21px !important;
+  }
+
+  #whatWeDo .card p {
+    font-size: 12px;
+  }
+
+  #whatWeDo .section-title h1 {
+    font-size: 25px;
+  }
+
+  #whatWeDo .section-title h2 {
+    font-size: 20px;
+  }
+
+  .carousell .track .item {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+@media (max-width: 767px) {
+  #our-team .player-card {
+    height: 320px;
+    min-width: 0;
+  }
+
+  #our-team .player-card .img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #our-team .player-card .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #our-team .player-card .player-info {
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
+    width: auto;
+    max-width: calc(100% - 20px);
+    overflow-wrap: anywhere;
+    z-index: 2;
+  }
+
+  #our-team .player-card .player-info h3 {
+    font-size: clamp(10px, 3vw, 14px);
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  #our-team .player-card .player-info p {
+    font-size: clamp(9px, 2.5vw, 12px);
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  #our-team .player-card .player-info span {
+    font-size: clamp(9px, 2.5vw, 11px);
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+
+  #our-team .player-card .player-tag {
+    top: 10px;
+    right: 10px;
+    transform: none;
+    font-size: 10px;
+    writing-mode: vertical-rl;
+  }
+}
+
+@media (min-width: 768px) {
+  #our-team .player-card .player-info {
+    left: 12px;
+    right: 38px;
+    width: auto;
+  }
+
+  #our-team .player-card .player-info h3 {
+    font-size: clamp(12px, 1.3vw, 18px);
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  #our-team .player-card .player-info p {
+    font-size: 12px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  #our-team .player-card .player-info span {
+    font-size: 11px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 991px) {
+  #contact {
+    padding: 75px 0 60px;
+  }
+
+  .contact-layout {
+    gap: 20px;
+  }
+
+  .contact-info-card {
+    padding: 18px;
+    gap: 13px;
+  }
+
+  .contact-form-card {
+    padding: 22px 18px;
+  }
+
+  .footer-columns {
+    gap: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  #contact {
+    padding: 60px 0 50px;
+  }
+
+  #contact .contact-title {
+    margin-bottom: 32px;
+  }
+
+  #contact .contact-title > p {
+    font-size: 14px;
+  }
+
+  .contact-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+  }
+
+  .contact-details {
+    gap: 14px;
+  }
+
+  .contact-info-card {
+    min-height: 92px;
+    padding: 17px;
+  }
+
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+    flex-basis: 48px;
+    font-size: 18px;
+  }
+
+  .contact-info-card h3,
+  .community-card h3 {
+    font-size: 16px;
+  }
+
+  .contact-info-card p {
+    font-size: 12px;
+  }
+
+  .community-card {
+    padding: 22px 18px;
+  }
+
+  .contact-form-card {
+    padding: 22px 17px;
+  }
+
+  .contact-form-card h2 {
+    font-size: 19px;
+  }
+
+  .form-name-row {
+    gap: 10px;
+  }
+
+  .contact-field input,
+  .contact-field select,
+  .contact-field textarea {
+    font-size: 12px;
+  }
+
+  .footer-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px 22px;
+  }
+
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+
+  .footer-brand p {
+    max-width: 320px;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .footer-bottom div {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-name-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .footer-columns {
+    gap: 28px 14px;
+  }
+
+  .footer-links h3 {
+    font-size: 16px;
+  }
+
+  .footer-links a,
+  .footer-bottom a {
+    font-size: 12px;
+  }
+
+  .footer-bottom div {
+    gap: 10px;
+  }
+}
